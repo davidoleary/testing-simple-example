@@ -8,6 +8,6 @@ describe('add', () => {
 
   it('add two numbers', () => {
     const result = add(4, 6);
-    expect(result).to.equal(9);
+    expect(result).to.equal(10);
   });
 });
