@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "mocha ./*.spec.js --recursive --reporter spec",
     "test-watch": "mocha --watch ./*.spec.js --recursive --reporter spec"
   },
   "author": "",
